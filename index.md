@@ -6,9 +6,9 @@ layout: default
 
 <img class="profile-picture" src="sherlock.jpg">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+Hello! I am a master's student majoring in at Nagoya University, Japan.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+I am also a former intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/) at Aalto Universiy.
 
 ## Research Interest
 
@@ -19,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 1. F.Bar, J.Doe: Effects of having a placeholder of a name
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
-## Typography
+## Experience
 
 This is a [link](http://google.com). Something *italics* and something **bold**.
 
