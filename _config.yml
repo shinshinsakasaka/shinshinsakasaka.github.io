@@ -15,8 +15,6 @@ sass:
 nav:
  - name: "Github"
    link: "https://github.com/shinshinsakasaka"
- - name: "Portfolio"
-   link: "portfolio"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
