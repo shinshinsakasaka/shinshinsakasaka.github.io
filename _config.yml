@@ -13,8 +13,8 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Github"
-   link: "https://github.com/shinshinsakasaka"
+ - name: "About"
+   link: "/researcher/"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
