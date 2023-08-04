@@ -1,23 +1,22 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
-
+gems:
+  - jekyll-redirect-from
+title: Shintaro Sakai
+url: "https://shinshinsakasaka.github.io"
+#baseurl: "/me"
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
+favicon: sherlock.jpg
 
 tracking_id: #
-
-footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
+ - name: "Github"
+   link: "https://github.com/shinshinsakasaka"
+ - name: "Portfolio"
+   link: "portfolio"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
