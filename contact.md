@@ -3,24 +3,12 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
-
-* Phone: [+91-123123](tel:+91-123123)
+* Email: [sakai.shintaro.h1 at s.mail.nagoya-u.ac.jp](sakai.shintaro.h1@s.mail.nagoya-u.ac.jp)
 
 ---
 
-## Mailing Address
-
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
-
----
 
 ## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+1. [LinkedIn](https://www.linkedin.com/in/shintaro-sakai-400a54247/)
+2. [Twitter](https://twitter.com/shinfromjapan)
