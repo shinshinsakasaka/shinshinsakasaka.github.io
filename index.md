@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-<img class="profile-picture" src="sherlock.jpg">
+<img class="profile-picture" src="profile.jpg">
 
 Hello! I am a master's student majoring in at Nagoya University, Japan.
 
