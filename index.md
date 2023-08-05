@@ -2,44 +2,33 @@
 layout: default
 ---
 
-## About
+## About Me
 
 <img class="profile-picture" src="profile.jpg">
 
-Hello! I am a master's student majoring in at Nagoya University, Japan.
-
-I am also a former intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/) at Aalto Universiy.
+Hello! I am a master's student majoring in at Nagoya University, Japan. I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy.
 
 ## Research Interest
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+I’m broadly interested in natural language processing, computational social science, cultural analytics, AI bias and AI ethics. Combining these interests and my cultural background, I am especially curious about,
+* how AI shape culture and culture shapes AI through training data, algorithms, and designs
+* developing computational methods to better answer questions in social science disciplines
+* using computational methods to answer questions in social science disciplines
 
-## Publications
+## Conferences
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+Evaluating the Quality of Word Embedding Trained on Wikipedia Articles. Shintaro Sakai, Yasuhiro Suzuki. The 9th International Conference on Computational Social Science (**IC2S2 2023**).
+
+Evaluating Semantic Changes in the Concept of Happiness with Diachronic Word Embeddings. Shintaro Sakai. The 9th International Conference on Computational Social Science (**IC2S2 2023**).
+
+日本語単語埋め込みモデルにおけるジェンダーバイアスの評価(Evaluation of Gender Bias in Japanese Word Embedding Model). Shintaro Sakai, Yasuhiro Suzuki. The 37th Annual Conference of the Japanese Society for Artificial Intelligence (**JSAI 2023**).
+
+Evaluation of Occupational Gender Bias in Japanese Word Embedding. Shintaro Sakai. 第2回計算社会科学会大会 (2023).
 
 ## Experience
 
-This is a [link](http://google.com). Something *italics* and something **bold**.
+The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022. [link](https://cmmrs2022.mpi-sws.org/)
 
-Here is a table
+Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022. 
 
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+Exchange program at St John's College, University of Cambridge. February 2019.
