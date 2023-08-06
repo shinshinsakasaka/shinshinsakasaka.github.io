@@ -13,7 +13,7 @@ You can download my CV [here](CV_online.pdf)
 ## Research Interest
 
 I’m broadly interested in natural language processing, computational social science, cultural analytics, AI bias and AI ethics. Combining these interests and my cultural background, I am especially curious about,
-* how AI shape culture and culture shapes AI through training data, algorithms, and designs
+* how AI shapes culture and culture shapes AI through training data, algorithms, and designs
 * developing computational methods to better answer questions in social science disciplines
 * using computational methods to answer questions in social science disciplines
 
@@ -35,6 +35,9 @@ Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. 
 
 Exchange program at St John's College, University of Cambridge. February 2019.
 
+## Other things
 
 
-
+<br />
+<br />
+<br />
