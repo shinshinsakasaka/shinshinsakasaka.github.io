@@ -6,7 +6,9 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg">
 
-Hello! I am a master's student majoring in at Nagoya University, Japan. I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy.
+Hello! I am a master's student majoring in information science at Nagoya University, Japan. I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy.
+
+You can download my CV [here](CV_online.pdf)
 
 ## Research Interest
 
