@@ -34,3 +34,7 @@ The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022
 Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022. 
 
 Exchange program at St John's College, University of Cambridge. February 2019.
+
+
+
+
