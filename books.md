@@ -8,7 +8,7 @@ I enjoy reading books. Here are the lists of my favorite books. While most of th
 
 <pre>
 
-* 旅をする木   星野道夫  
+* 旅をする木 &nbsp;&nbsp;&nbsp;   星野道夫  
   (Korean) 여행하는나무   Michio Hoshino  
   (Chinese) 旅行之木    Michio Hoshino
 
@@ -22,7 +22,7 @@ I enjoy reading books. Here are the lists of my favorite books. While most of th
 
 * わたしのマトカ   片桐はいり
 
-* (English) Night Flight   Antoine de Saint-Exupery  
+* Night Flight   Antoine de Saint-Exupery  
   (Japanese) 夜間飛行   サン・テグジュペリ
 
 
