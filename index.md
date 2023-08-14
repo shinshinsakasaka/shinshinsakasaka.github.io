@@ -18,10 +18,13 @@ I’m broadly interested in natural language processing, computational social sc
 * using computational methods to answer questions in social science disciplines
 
 ## Current Research Projects
-* Quantificatoin of occupational gender stereotypes in Japan between 1900 and 1999
+**Quantificatoin of occupational gender stereotypes in Japan between 1900 and 1999**
+
 This project aims to quantify 100 years of occupational gender stereotypes in Japan. By utilizing tremendous amount of data offered by Japanese National Diet Library, we train word embeddings for each year to measure people's stereotypes. While word embeddings are increasingly used to measure historical stereotypes, most studies use English data. We examine whether we can replicate the similar results in Japanese or uncover any limitation.
 
-* Evaluation of the impact of lexical gender bias on gender bias measurement with word embeddings
+
+**Evaluation of the impact of lexical gender bias on gender bias measurement with word embeddings**
+
 While word embeddings are increasingly used to quantify people's stereotypes, I found male-dominated occupation terms tend to exhibit female bias when they are measured with embedding models trained with Japanese Wikipedia articles. Based on the previous study about the lexical gender bias in Wikipedia, I hypthesize it is becuase female in male-dominated occupations are written as a special case (e.g., _female scientist_ instead of _scieintist_) and it leads a model to associate a male-dominted occupation terms with female. 
 
 ## Conferences
@@ -36,7 +39,7 @@ Evaluation of Occupational Gender Bias in Japanese Word Embedding. Shintaro Saka
 
 ## Experience
 
-* The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022. [link](https://cmmrs2022.mpi-sws.org/)
+The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022. [link](https://cmmrs2022.mpi-sws.org/)
 It was a great opportunity to attend lectures on cutting-edge computer science research and interact with inspiring faculties and peers.
 
 Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022. 
@@ -47,6 +50,7 @@ Exchange program at St John's College, University of Cambridge. February 2019.
 
 ## Scholarships
 Student Travel Grant, Nagoya University, 190,000 yen
+
 President award for excellent TOEFL ITP score, 500,000 yen
 
 ## Other things
