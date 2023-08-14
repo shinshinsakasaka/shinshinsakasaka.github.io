@@ -56,7 +56,7 @@ President award for excellent TOEFL ITP score, 500,000 yen
 ## Other things
 [Books](books.md)
 
-I enjoy [creative coding](https://www.instagram.com/creativecoding_lab)
+[Creative coding](https://www.instagram.com/creativecoding_lab)
 <br />
 <br />
 <br />
