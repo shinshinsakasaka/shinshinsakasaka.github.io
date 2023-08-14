@@ -12,7 +12,7 @@ I enjoy reading books. Here are the lists of my favorite books. While most of th
   (Chinese) 旅行之木 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Michio Hoshino
 
 * 博士の愛した数式 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  小川洋子  
-　(English) The Housekeeper and the Professor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Yoko Ogawa
+  (English) The Housekeeper and the Professor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Yoko Ogawa
 
 * 生きるとは，自分の物語をつくること &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  河合隼雄，小川洋子　　
 
