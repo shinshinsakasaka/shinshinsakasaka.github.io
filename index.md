@@ -39,8 +39,7 @@ Evaluation of Occupational Gender Bias in Japanese Word Embedding. Shintaro Saka
 
 ## Experience
 
-* The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022. [link](https://cmmrs2022.mpi-sws.org/)
-  
+* The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022. [link](https://cmmrs2022.mpi-sws.org/)  
 It was a great opportunity to attend lectures on cutting-edge computer science research and interact with inspiring faculties and peers.
 
 * Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022.  
