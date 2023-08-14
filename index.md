@@ -43,10 +43,8 @@ Evaluation of Occupational Gender Bias in Japanese Word Embedding. Shintaro Saka
   
 It was a great opportunity to attend lectures on cutting-edge computer science research and interact with inspiring faculties and peers.
 
-* Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022.
-  
-Project: Civic Agency in AI? Democratizing Algorithmic Services in the City (CAAI).
-
+* Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022.  
+Project: Civic Agency in AI? Democratizing Algorithmic Services in the City (CAAI).  
 I analyzed feedback from organizations on the AI Act proposal and found how words used in the feedbacks vary by organization types. (In preparation of peer-reviewed journal)
 
 * Exchange program at St John's College, University of Cambridge. February 2019.
