@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg">
 
-Hello! I am a master's student majoring in information science at Nagoya University, Japan. I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy.
+Hello! I am a master's student majoring in information science at Nagoya University, Japan. I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University.
 
 You can download my CV [here](CV_online.pdf)
 
@@ -18,14 +18,14 @@ I’m broadly interested in natural language processing, computational social sc
 * using computational methods to answer questions in social science disciplines
 
 ## Current Research Projects
-* **Quantificatoin of occupational gender stereotypes in Japan between 1900 and 1999**
+* **Quantification of occupational gender stereotypes in Japan between 1900 and 1999**
 
-This project aims to quantify 100 years of occupational gender stereotypes in Japan. By utilizing tremendous amount of data offered by Japanese National Diet Library, we train word embeddings for each year to measure people's stereotypes. While word embeddings are increasingly used to measure historical stereotypes, most studies use English data. We examine whether we can replicate the similar results in Japanese or uncover any limitation.
+This project aims to quantify 100 years of occupational gender stereotypes in Japan. By utilizing the large amount of data offered by the Japanese National Diet Library, we train word embeddings for each year to measure people's stereotypes. While word embeddings are increasingly used to measure historical stereotypes, most studies use English data. We examine whether we can replicate similar results in Japanese or uncover any limitations.
 
 
 * **Evaluation of the impact of lexical gender bias on gender bias measurement with word embeddings**
 
-While word embeddings are increasingly used to quantify people's stereotypes, I found male-dominated occupation terms tend to exhibit female bias when they are measured with embedding models trained with Japanese Wikipedia articles. Based on the previous study about the lexical gender bias in Wikipedia, I hypthesize it is becuase female in male-dominated occupations are written as a special case (e.g., _female scientist_ instead of _scieintist_) and it leads a model to associate a male-dominted occupation terms with female. 
+While word embeddings are increasingly used to quantify people's stereotypes, I found that male-dominated occupation terms tend to exhibit female bias when they are measured with embedding models trained with Japanese Wikipedia articles. Based on the previous study about the lexical gender bias in Wikipedia, I hypothesize it is because females in male-dominated occupations are written as a special case (e.g., _female scientist_ instead of _scientist_) and it leads a model to associate male-dominated occupation terms with females. 
 
 ## Conferences
 
@@ -44,7 +44,7 @@ It was a great opportunity to attend lectures on cutting-edge computer science r
 
 * Research Intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto Universiy. May – July 2022.  
 Project: Civic Agency in AI? Democratizing Algorithmic Services in the City (CAAI).  
-I analyzed feedback from organizations on the AI Act proposal and found how words used in the feedbacks vary by organization types. (In preparation of peer-reviewed journal)
+I analyzed feedback from organizations on the AI Act proposal and found how words used in the feedbacks vary by organization types. (In preparation for peer-reviewed journal)
 
 * Exchange program at St John's College, University of Cambridge. February 2019.
 
