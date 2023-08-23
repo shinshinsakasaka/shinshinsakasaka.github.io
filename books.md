@@ -16,9 +16,6 @@ I enjoy reading books. Here are the lists of my favorite books. While most of th
 
 * 生きるとは，自分の物語をつくること &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  河合隼雄，小川洋子　　
 
-* The Catcher in the Rye &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  J.D.Salinger  
-  (Japanese) ライ麦畑でつかまえて  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; J.D.サリンジャー   野崎孝訳
-
 * わたしのマトカ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  片桐はいり
 
 * Night Flight &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Antoine de Saint-Exupery  
