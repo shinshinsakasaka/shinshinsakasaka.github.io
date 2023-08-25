@@ -48,12 +48,8 @@ I analyzed feedback from organizations on the AI Act proposal and found how word
 
 * Exchange program at St John's College, University of Cambridge. February 2019.
 
-## Scholarships
-Student Travel Grant, Nagoya University, 190,000 yen
 
-President award for excellent TOEFL ITP score, 500,000 yen
-
-## Other things
+## Random things
 [Books](books.md)
 
 [Creative coding](https://www.instagram.com/creativecoding_lab)
