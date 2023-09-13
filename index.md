@@ -29,9 +29,11 @@ While word embeddings are increasingly used to quantify people's stereotypes, I 
 
 ## Conferences
 
-Evaluating the Quality of Word Embedding Trained on Wikipedia Articles. Shintaro Sakai, Yasuhiro Suzuki. The 9th International Conference on Computational Social Science (**IC2S2 2023**).
+Evaluating the impact of lexical gender bias on gender bias measurement with word embeddings. Shintaro Sakai. The New Directions in Analyzing Text as Data (**TADA 2023**). (Poster)
 
-Evaluating Semantic Changes in the Concept of Happiness with Diachronic Word Embeddings. Shintaro Sakai. The 9th International Conference on Computational Social Science (**IC2S2 2023**).
+Evaluating the Quality of Word Embedding Trained on Wikipedia Articles. Shintaro Sakai, Yasuhiro Suzuki. The 9th International Conference on Computational Social Science (**IC2S2 2023**). (Poster)
+
+Evaluating Semantic Changes in the Concept of Happiness with Diachronic Word Embeddings. Shintaro Sakai. The 9th International Conference on Computational Social Science (**IC2S2 2023**). (Poster)
 
 日本語単語埋め込みモデルにおけるジェンダーバイアスの評価(Evaluation of Gender Bias in Japanese Word Embedding Model). Shintaro Sakai, Yasuhiro Suzuki. The 37th Annual Conference of the Japanese Society for Artificial Intelligence (**JSAI 2023**).
 
