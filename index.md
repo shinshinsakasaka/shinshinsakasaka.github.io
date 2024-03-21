@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg">
 
-Hello! I am a master's student majoring in information science at Nagoya University, Japan. I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University.
+Hi! I am an incoming PhD student in Informatics at Indiana University Bloomington, where I will be advised by Prof. [Haewoon Kwak](https://haewoon.io/) and Prof. [Jisun An](https://jisun.me/) at [Soda Lab](https://soda-labo.github.io/). I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University.
 
 You can download my CV [here](CV.pdf)
 
