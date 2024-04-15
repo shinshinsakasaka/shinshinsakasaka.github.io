@@ -71,6 +71,13 @@ hr {
 .wrapper {
     min-height: 100%;
 }
+.news-container {
+    max-height: 400px; /* スクロール可能な領域の最大高さ */
+    overflow-y: auto; /* 縦方向にスクロール可能に設定 */
+    border: 1px solid #ccc; /* ボーダーを追加 */
+    padding: 10px; /* 内側の余白を設定 */
+}
+
 
 /* Institute Image */
 
