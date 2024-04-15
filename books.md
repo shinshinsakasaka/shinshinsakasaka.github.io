@@ -17,20 +17,17 @@ I enjoy reading books. Here are the lists of books I have read either in English
 <details>
   <summary>2024</summary>
 
-  * 管見妄語　失われた美風 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  藤原正彦
-  
-  * コンプレックス &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  河合隼雄
-  
-  * セラピスト &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  最相葉月
-    
-  * ラークライズ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  フローラ・トンプソン、石田英子（訳）
-    
-  * 季節のない街 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  山本周五郎
-    
-  * 親愛なるレニー: レナード・バーンスタインと戦後日本の物語 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  吉原真里
-    
-  * 社会的処方: 孤立という病を地域のつながりで治す方法 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  西智弘（編著）
+  <ul>
+    <li>管見妄語　失われた美風     藤原正彦</li>
+    <li>コンプレックス     河合隼雄</li>
+    <li>セラピスト     最相葉月</li>
+    <li>ラークライズ     フローラ・トンプソン、石田英子（訳）</li>
+    <li>季節のない街     山本周五郎</li>
+    <li>親愛なるレニー: レナード・バーンスタインと戦後日本の物語     吉原真里</li>
+    <li>社会的処方: 孤立という病を地域のつながりで治す方法     西智弘（編著）</li>
+  </ul>
 </details>
+
 
 <details>
   <summary>~2023</summary>
