@@ -17,6 +17,8 @@ nav:
    link: "https://shinshinsakasaka.github.io/"
  - name: "Publications"
    link: "publications"
+ - name: "Random"
+   link: "random"
  - name: "Contact"
    link: "contact"
 
