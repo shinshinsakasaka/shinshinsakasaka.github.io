@@ -15,5 +15,8 @@ sass:
 nav:
  - name: "About"
    link: "https://shinshinsakasaka.github.io/"
+ - name: "Publications"
+   link: "publications"
  - name: "Contact"
    link: "contact"
+
