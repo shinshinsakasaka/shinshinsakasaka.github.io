@@ -18,8 +18,7 @@ I’m broadly interested in natural language processing, computational social sc
 
 ## News
 <div class="news-container">
-    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-    <p>寿司寿司寿司寿司寿司寿司寿司寿司寿司</p>
+    <p>April 2024           I am joining Indiana University Bloomington (PhD in Informatics)! Excited!</p>
 </div>
 
 
