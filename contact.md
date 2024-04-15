@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: sakai.shintaro.h1 at s.mail.nagoya-u.ac.jp
+* Email: shinsaka at iu.edu
 
 ---
 
