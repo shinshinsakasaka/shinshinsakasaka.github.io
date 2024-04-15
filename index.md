@@ -18,7 +18,7 @@ I’m broadly interested in natural language processing, computational social sc
 
 ## News
 <div class="news-container">
-    <p>* April 2024  &nbsp;&nbsp;&nbsp;  I am joining Indiana University Bloomington (PhD in Informatics)! Excited!</p>
+    <p>●  &nbsp;April 2024</p> 　　　  <p>I am joining Indiana University Bloomington (PhD in Informatics)! Excited!</p>
 </div>
 
 
