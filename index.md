@@ -18,8 +18,8 @@ I’m broadly interested in natural language processing, computational social sc
 
 ## News
 <div class="news-container">
-    ・hello
-  　・hello
+    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    <p>寿司寿司寿司寿司寿司寿司寿司寿司寿司</p>
 </div>
 
 
