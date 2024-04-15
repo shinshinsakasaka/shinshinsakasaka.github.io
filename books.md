@@ -16,6 +16,7 @@ I enjoy reading books. Here are the lists of books I have read either in English
 
 <details>
   <summary>2024</summary>
+  
   * コンプレックス &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  河合隼雄
   
   * セラピスト &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  最相葉月
