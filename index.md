@@ -16,23 +16,6 @@ I’m broadly interested in natural language processing, computational social sc
 * how AI shapes culture and culture shapes AI through training data, algorithms, and designs
 * using and developing computational methods to better answer questions in social science disciplines
 
-## Current Research Projects
-* **Quantification of occupational gender stereotypes in Japan between 1900 and 1999**
-
-This project aims to quantify 100 years of occupational gender stereotypes in Japan. By utilizing the large amount of data offered by the Japanese National Diet Library, we train word embeddings for each year to measure people's stereotypes. While word embeddings are increasingly used to measure historical stereotypes, most studies use English data. We examine whether we can replicate similar results in Japanese or uncover any limitations.
-
-## Conferences
-
-Evaluating the impact of lexical gender bias on gender bias measurement with word embeddings. Shintaro Sakai. The New Directions in Analyzing Text as Data (**TADA 2023**). (Poster)
-
-Evaluating the Quality of Word Embedding Trained on Wikipedia Articles. Shintaro Sakai, Yasuhiro Suzuki. The 9th International Conference on Computational Social Science (**IC2S2 2023**). (Poster)
-
-Evaluating Semantic Changes in the Concept of Happiness with Diachronic Word Embeddings. Shintaro Sakai. The 9th International Conference on Computational Social Science (**IC2S2 2023**). (Poster)
-
-日本語単語埋め込みモデルにおけるジェンダーバイアスの評価(Evaluation of Gender Bias in Japanese Word Embedding Model). Shintaro Sakai, Yasuhiro Suzuki. The 37th Annual Conference of the Japanese Society for Artificial Intelligence (**JSAI 2023**).
-
-Evaluation of Occupational Gender Bias in Japanese Word Embedding. Shintaro Sakai. 第2回計算社会科学会大会 (2023).
-
 ## Experience
 
 * The Cornell, Maryland, Max Planck Pre-doctoral Research School 2022. August 2022. [link](https://cmmrs2022.mpi-sws.org/)  
@@ -44,11 +27,6 @@ I analyzed feedback from organizations on the AI Act proposal and found how word
 
 * Exchange program at St John's College, University of Cambridge. February 2019.
 
-
-## Random things
-[Books](books.md)
-
-[Creative coding](https://www.instagram.com/creativecoding_lab)
 <br />
 <br />
 <br />
