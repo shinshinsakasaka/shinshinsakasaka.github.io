@@ -6,6 +6,13 @@ is_books: true
 I enjoy reading books. Here are the lists of books I have read either in English or Japanese. These lists are not exhaustive.
 (This page is still under construction)
 
+<details>
+  <summary>アルパカとは？（ここをクリックしてみてね）</summary>
+    アルパカ（alpaca、Vicugna pacos、漢名: 羊駱駝）は、南アメリカ大陸原産の家畜の1種である。
+    ラクダ科のビクーニャ属またはラマ属に属する。
+    極めて良質な体毛を具えており、古来、衣類を始めとする生活用品への体毛の加工利用が品種改良の目的であった。
+</details>
+
 ## (English)
 
 * Haruki Murakami goes to meet Hayao Kawai &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Haruki Murakami, Hayao Kawai
