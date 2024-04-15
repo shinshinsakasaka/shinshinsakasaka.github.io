@@ -1,6 +1,6 @@
 ## Random things
-[Books](books.md)
+1. [Books](books.md)
 
-[Creative coding](https://www.instagram.com/creativecoding_lab)
+2. [Creative coding](https://www.instagram.com/creativecoding_lab)
 
-This website is built based on [this](https://github.com/ankitsultana/researcher) template.
+3. This website is built with [Ankit Sultana's template](https://github.com/ankitsultana/researcher).
