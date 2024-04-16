@@ -23,5 +23,7 @@ nav:
    link: "contact"
 
 plugins:
-  - jekyll-sitemap
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-feed
 
