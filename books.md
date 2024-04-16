@@ -19,6 +19,7 @@ I enjoy reading books. Here are the lists of books I have read either in English
 
   <ul>
     <li>管見妄語　失われた美風  &nbsp;&nbsp;&nbsp;&nbsp;   藤原正彦</li>
+    <li>トムは真夜中の庭で  &nbsp;&nbsp;&nbsp;&nbsp;   フィリパ・ピアス、高杉一郎（訳）</li>
     <li>コンプレックス  &nbsp;&nbsp;&nbsp;&nbsp;   河合隼雄</li>
     <li>セラピスト  &nbsp;&nbsp;&nbsp;&nbsp;   最相葉月</li>
     <li>ラークライズ  &nbsp;&nbsp;&nbsp;&nbsp;   フローラ・トンプソン、石田英子（訳）</li>
