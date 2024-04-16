@@ -1,11 +1,8 @@
 gems:
+  - jekyll-sitemap
   - jekyll-redirect-from
 title: Shintaro Sakai
 url: "https://shinshinsakasaka.github.io"
-plugins:
- - jekyll-seo-tag
- - jekyll-sitemap
- - jekyll-feed
 #baseurl: "/me"
 markdown: kramdown
 favicon: sherlock.jpg
