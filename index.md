@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="profile_3.jpg">
+<img class="profile-picture" src="profile_2.jpg">
 
 Hi! I am an incoming PhD student in Informatics at Indiana University Bloomington, where I will be advised by Prof. [Haewoon Kwak](https://haewoon.io/) and Prof. [Jisun An](https://jisun.me/) at the [Soda Lab](https://soda-labo.github.io/). I have also worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University. I attended the [CMMRS 2022](https://cmmrs2022.mpi-sws.org/).
 
