@@ -18,6 +18,8 @@ I enjoy reading books. Here are the lists of books I have read either in English
   <summary>2024</summary>
 
   <ul>
+    <li>遥かなるケンブリッジ　一数学者のイギリス  &nbsp;&nbsp;&nbsp;&nbsp;   藤原正彦</li>
+    <li>なるほどの対話  &nbsp;&nbsp;&nbsp;&nbsp;   河合隼雄、吉本ばなな</li>
     <li>管見妄語　失われた美風  &nbsp;&nbsp;&nbsp;&nbsp;   藤原正彦</li>
     <li>トムは真夜中の庭で  &nbsp;&nbsp;&nbsp;&nbsp;   フィリパ・ピアス、高杉一郎（訳）</li>
     <li>コンプレックス  &nbsp;&nbsp;&nbsp;&nbsp;   河合隼雄</li>
