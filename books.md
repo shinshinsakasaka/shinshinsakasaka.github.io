@@ -18,6 +18,10 @@ I enjoy reading books. Here are the lists of books I have read either in English
   <summary>2024</summary>
 
   <ul>
+    <li>月と蟹  &nbsp;&nbsp;&nbsp;&nbsp;   道尾秀介</li>
+    <li>八日目の蝉  &nbsp;&nbsp;&nbsp;&nbsp;   角田光代</li>
+    <li>学生との対話  &nbsp;&nbsp;&nbsp;&nbsp;   小林秀雄</li>
+    <li>スマホより読書　本屋を守れ  &nbsp;&nbsp;&nbsp;&nbsp;   藤原正彦</li>
     <li>遥かなるケンブリッジ　一数学者のイギリス  &nbsp;&nbsp;&nbsp;&nbsp;   藤原正彦</li>
     <li>なるほどの対話  &nbsp;&nbsp;&nbsp;&nbsp;   河合隼雄、吉本ばなな</li>
     <li>管見妄語　失われた美風  &nbsp;&nbsp;&nbsp;&nbsp;   藤原正彦</li>
