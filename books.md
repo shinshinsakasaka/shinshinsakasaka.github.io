@@ -18,6 +18,8 @@ I enjoy reading books. Here are the lists of books I have read either in English
   <summary>2024</summary>
 
   <ul>
+    <li>子どもの宇宙  &nbsp;&nbsp;&nbsp;&nbsp;   河合隼雄</li>
+    <li>四畳半神話大系  &nbsp;&nbsp;&nbsp;&nbsp;   森見登美彦</li>
     <li>月と蟹  &nbsp;&nbsp;&nbsp;&nbsp;   道尾秀介</li>
     <li>八日目の蝉  &nbsp;&nbsp;&nbsp;&nbsp;   角田光代</li>
     <li>学生との対話  &nbsp;&nbsp;&nbsp;&nbsp;   小林秀雄</li>
