@@ -18,6 +18,7 @@ I enjoy reading books. Here are the lists of books I have read either in English
   <summary>2024</summary>
 
   <ul>
+    <li>ことばが劈かれるとき  &nbsp;&nbsp;&nbsp;&nbsp;   竹内敏晴</li>
     <li>あいまいな日本の私  &nbsp;&nbsp;&nbsp;&nbsp;   大江健三郎</li>
     <li>青森  &nbsp;&nbsp;&nbsp;&nbsp;   工藤正市</li>
     <li>子どもの宇宙  &nbsp;&nbsp;&nbsp;&nbsp;   河合隼雄</li>
