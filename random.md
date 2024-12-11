@@ -1,5 +1,5 @@
 ## Random things
-*  [Books](books.md)
+<!-- [Books](books.md) -->
 
 *  [Creative coding](https://www.instagram.com/creativecoding_lab)
 
