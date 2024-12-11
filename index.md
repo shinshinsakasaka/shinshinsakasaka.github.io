@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="profile_2.jpg">
+<img class="profile-picture" src="profile.jpg">
 
 Hi! I am an incoming PhD student in Informatics at Indiana University Bloomington, where I will be advised by Prof. [Haewoon Kwak](https://luddy.indiana.edu/contact/profile/index.html?Haewoon_Kwak) and Prof. [Jisun An](https://luddy.indiana.edu/contact/profile/index.html?Jisun_An) at [Soda Lab](https://soda-labo.github.io/). I also closely work with Prof. [Selma Sabanovic](https://luddy.indiana.edu/contact/profile/?profile_id=288) and Prof. [Goren Gordon](https://luddy.indiana.edu/contact/profile/index.html?Goren_Gordon). I have worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University. I attended the [CMMRS 2022](https://cmmrs2022.mpi-sws.org/).
 
