@@ -25,7 +25,6 @@ I’m broadly interested in natural language processing, computational social sc
   </ul>
 </details>
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=9cx572d2c9FAOWyhzZ_S6IUUToug56nm-opux4x7HVY&cl=ffffff&w=a"></script>
 
 
 <br />
