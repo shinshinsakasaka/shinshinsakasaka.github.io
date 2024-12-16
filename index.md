@@ -17,9 +17,13 @@ I’m broadly interested in natural language processing, computational social sc
 * Using and developing computational methods to better answer questions in social science disciplines
 
 ## News
-<div class="news-container">
-    <p>●  &nbsp;April 2024: I am joining Indiana University Bloomington (PhD in Informatics)! Excited!</p>
-</div>
+<details>
+  <summary>2024</summary>
+
+  <ul>
+    <li>April  &nbsp;&nbsp;&nbsp;&nbsp;   I am joining Indiana University Bloomington!</li>
+  </ul>
+</details>
 
 
 <br />
