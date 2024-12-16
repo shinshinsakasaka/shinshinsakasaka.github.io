@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg">
 
-Hi! I am a first-year PhD student in Informatics at Indiana University Bloomington, where I am advised by Prof. [Haewoon Kwak](https://luddy.indiana.edu/contact/profile/index.html?Haewoon_Kwak) and Prof. [Jisun An](https://luddy.indiana.edu/contact/profile/index.html?Jisun_An) at [Soda Lab](https://soda-labo.github.io/). I also closely work with Prof. [Selma Sabanovic](https://luddy.indiana.edu/contact/profile/?profile_id=288) and Prof. [Goren Gordon](https://luddy.indiana.edu/contact/profile/index.html?Goren_Gordon). I have worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University. I attended the [CMMRS 2022](https://cmmrs2022.mpi-sws.org/).
+Hi! I am a first-year PhD student in Informatics at Indiana University Bloomington, where I am advised by Prof. [Haewoon Kwak](https://luddy.indiana.edu/contact/profile/index.html?Haewoon_Kwak) and Prof. [Jisun An](https://luddy.indiana.edu/contact/profile/index.html?Jisun_An) at [Soda Lab](https://soda-labo.github.io/). We are a member of Center for [Complex Networks and Systems Research (CNetS)](https://cnets.indiana.edu/). I also closely work with Prof. [Selma Sabanovic](https://luddy.indiana.edu/contact/profile/?profile_id=288) and Prof. [Goren Gordon](https://luddy.indiana.edu/contact/profile/index.html?Goren_Gordon). I have worked as a research intern at [CRAI-CIS lab](https://crai-cis.aalto.fi/), Aalto University. I attended the [CMMRS 2022](https://cmmrs2022.mpi-sws.org/).
 
 You can download my CV [here](CV.pdf)
 
