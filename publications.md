@@ -3,7 +3,7 @@ layout: default
 ---
 ## Journal Paper
 
-Kaisla Kajava a, Ana Paula Gonzalez Torres, Antti Rannisto, Shintaro Sakai, Justifying AI regulation: Examining multi-stakeholder responses to the AI Act, Telematics and Informatics, 2025.
+Kaisla Kajava a, Ana Paula Gonzalez Torres, Antti Rannisto, Shintaro Sakai, "Justifying AI regulation: Examining multi-stakeholder responses to the AI Act", Telematics and Informatics, 2025.
 
 ## Non-archival Conferences
 
