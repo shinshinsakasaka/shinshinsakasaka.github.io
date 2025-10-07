@@ -4,7 +4,7 @@ layout: default
 ## Preprint
 Shintaro Sakai, Haewoon Kwak, Jisun An, Akira Matsui, "Quantifying Gender Stereotypes in Japan between 1900 and 1999 with Word Embeddings", arxiv, 2025.
 
-Long-Jing Hsu, Shintaro Sakai, Weslie Khoo, Hiroki Sato, Manasi Swaminathan, Katherine M. Tsui, David J.Crandall, Selma Šabanovic. Translation Gummy, or Lost in Translation? Cross-Cultural Conversations with a LLM-Powered Robot in Japan and the U.S.. 2025. (Under peer-review at ACM Transactions on Computer-Human Interaction)
+Long-Jing Hsu, Shintaro Sakai, Weslie Khoo, Hiroki Sato, Manasi Swaminathan, Katherine M. Tsui, David J.Crandall, Selma Šabanovic, "Translation Gummy, or Lost in Translation? Cross-Cultural Conversations with a LLM-Powered Robot in Japan and the U.S.", 2025, (Under peer-review at ACM Transactions on Computer-Human Interaction)
 
 Shintaro Sakai, Jisun An, Migyeong Kang, Haewoon Kwak, "Somatic in the East, Psychological in the West?: Investigating Clinically-Grounded Cross-Cultural Depression Symptom Expression in LLMs", arxiv, 2025. 
 
