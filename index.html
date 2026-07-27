@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shintaro Sakai</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      background-color: #fafafa;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Background floating shapes */
+    .background-shapes {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .shape {
+      position: absolute;
+      opacity: 0.05;
+      filter: blur(1px);
+    }
+
+    .shape-float { animation: float 20s infinite ease-in-out; }
+    .shape-sway  { animation: sway  25s infinite ease-in-out; }
+    .shape-pulse { animation: pulse 15s infinite ease-in-out; }
+    .shape-orbit { animation: orbit 30s infinite linear; }
+
+    .shape-1 {
+      top: 15%; left: 7%;
+      width: 70px; height: 70px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, rgba(153,0,0,0.5), rgba(180,30,30,0.2));
+    }
+    .shape-2 {
+      top: 25%; right: 12%;
+      width: 90px; height: 90px;
+      background-color: rgba(153,0,0,0.3);
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .shape-3 {
+      bottom: 20%; left: 18%;
+      width: 65px; height: 65px;
+      background: linear-gradient(45deg, rgba(200,149,108,0.3), rgba(220,169,128,0.1));
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+    .shape-4 {
+      bottom: 35%; right: 8%;
+      width: 50px; height: 50px;
+      border-radius: 0 50% 50% 50%;
+      background-color: rgba(200,149,108,0.4);
+      transform: rotate(45deg);
+    }
+    .shape-5 {
+      top: 60%; left: 30%;
+      width: 40px; height: 40px;
+      background-color: rgba(153,0,0,0.2);
+      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    }
+    .shape-6 {
+      top: 40%; left: 65%;
+      width: 55px; height: 55px;
+      border-radius: 50% 50% 50% 0;
+      background: linear-gradient(to bottom right, rgba(200,149,108,0.3), rgba(153,0,0,0.1));
+    }
+    .shape-7 {
+      bottom: 12%; right: 25%;
+      width: 30px; height: 30px;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+      background-color: rgba(153,0,0,0.25);
+    }
+    .shape-8 {
+      top: 75%; left: 50%;
+      width: 45px; height: 45px;
+      background-color: rgba(200,149,108,0.2);
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    @keyframes float {
+      0%   { transform: translateY(0)    rotate(0deg); }
+      50%  { transform: translateY(25px) rotate(5deg); }
+      100% { transform: translateY(0)    rotate(0deg); }
+    }
+    @keyframes sway {
+      0%   { transform: translateX(0)    rotate(0deg); }
+      50%  { transform: translateX(20px) rotate(-5deg); }
+      100% { transform: translateX(0)    rotate(0deg); }
+    }
+    @keyframes pulse {
+      0%   { transform: scale(1);   opacity: 0.05; }
+      50%  { transform: scale(1.1); opacity: 0.08; }
+      100% { transform: scale(1);   opacity: 0.05; }
+    }
+    @keyframes orbit {
+      0%   { transform: rotate(0deg)   translateX(50px) rotate(0deg); }
+      100% { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+    }
+
+    a {
+      color: #990000;
+      text-decoration: none;
+      transition: color 0.3s;
+      position: relative;
+    }
+    a:hover { color: #c8956c; }
+
+    a:not(.social-links a):not(.show-more):after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background-color: #c8956c;
+      transition: width 0.3s ease;
+    }
+    a:not(.social-links a):not(.show-more):hover:after { width: 100%; }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 40px 30px 30px;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 35px;
+      border: 3px solid #990000;
+      transition: transform 0.5s, box-shadow 0.5s;
+      flex-shrink: 0;
+    }
+    .profile-img:hover {
+      transform: scale(1.05) rotate(3deg);
+      box-shadow: 0 10px 25px rgba(153,0,0,0.3);
+    }
+
+    .header-content h1 {
+      font-size: 2.2rem;
+      color: #990000;
+      margin-bottom: 6px;
+      display: inline-block;
+      position: relative;
+    }
+    .header-content h1:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 5px;
+      bottom: -5px;
+      left: 0;
+      background: linear-gradient(90deg, #990000, #c8956c);
+      border-radius: 10px;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform 0.5s ease-out;
+    }
+    .header-content h1:hover:after {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+
+    .header-content .subtitle {
+      font-size: 1.05rem;
+      color: #666;
+      margin-bottom: 16px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 16px;
+      font-size: 1.2rem;
+    }
+    .social-links a {
+      color: #666;
+    }
+    .social-links a:hover {
+      color: #990000;
+      transform: translateY(-3px);
+    }
+    .social-links a:after { display: none; }
+
+    /* Main layout */
+    .main-content {
+      display: flex;
+      gap: 40px;
+      margin-top: 10px;
+    }
+
+    .content  { flex: 2; }
+    .sidebar  { flex: 1; }
+
+    section {
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s, transform 0.8s;
+    }
+    .section-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: #990000;
+      font-size: 1.5rem;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e0e0e0;
+      position: relative;
+      overflow: hidden;
+    }
+    h2:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: -1px;
+      left: -100%;
+      background: linear-gradient(90deg, #990000, #c8956c);
+      transition: left 0.5s ease;
+    }
+    section:hover h2:before { left: 0; }
+
+    .sidebar h2 { font-size: 1.2rem; }
+
+    /* Bio */
+    .bio p {
+      margin-bottom: 16px;
+      font-size: 1rem;
+    }
+
+    /* Research interest tags */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .tag {
+      background-color: rgba(153,0,0,0.1);
+      color: #990000;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      cursor: default;
+      transition: all 0.3s;
+    }
+    .tag:hover {
+      background-color: #990000;
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(153,0,0,0.2);
+    }
+
+    /* Publications */
+    .publication {
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+      padding: 18px 20px;
+      margin-bottom: 18px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      position: relative;
+      overflow: hidden;
+    }
+    .publication:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .publication:before {
+      content: "";
+      position: absolute;
+      top: 0; right: 0;
+      border-style: solid;
+      border-width: 0 20px 20px 0;
+      border-color: transparent #f0f0f0 transparent transparent;
+      transition: all 0.3s;
+    }
+    .publication:hover:before {
+      border-width: 0 30px 30px 0;
+      border-color: transparent #990000 transparent transparent;
+    }
+
+    .publication h3 {
+      color: #990000;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+      transition: color 0.3s;
+      line-height: 1.4;
+    }
+    .publication:hover h3 { color: #c8956c; }
+
+    .authors {
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+      color: #444;
+    }
+    .authors strong { color: #333; }
+
+    .venue {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+
+    .links {
+      display: flex;
+      gap: 12px;
+      font-size: 0.85rem;
+      flex-wrap: wrap;
+    }
+    .links a {
+      padding: 2px 8px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .links a:hover { background-color: rgba(153,0,0,0.1); }
+    .links a:after { display: none; }
+
+    /* Show more button */
+    .show-more {
+      display: block;
+      width: fit-content;
+      margin: 16px auto 0;
+      padding: 7px 20px;
+      background-color: white;
+      border: 1px solid #990000;
+      color: #990000;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.3s;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .show-more:before {
+      content: "";
+      position: absolute;
+      top: 0; left: -100%;
+      width: 100%; height: 100%;
+      background-color: #990000;
+      transition: left 0.3s;
+      z-index: -1;
+    }
+    .show-more:hover { color: white; }
+    .show-more:hover:before { left: 0; }
+
+    .hidden { display: none; }
+
+    /* News list */
+    .news-list {
+      max-height: 420px;
+      overflow-y: auto;
+      font-size: 0.85rem;
+      border-radius: 8px;
+      background-color: rgba(255,255,255,0.7);
+      backdrop-filter: blur(5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      padding: 15px;
+      transition: box-shadow 0.3s;
+    }
+    .news-list:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+
+    .news-list li {
+      list-style: none;
+      margin-bottom: 11px;
+      border-bottom: 1px dotted #e0e0e0;
+      padding-bottom: 11px;
+      padding-left: 18px;
+      position: relative;
+      transition: transform 0.3s;
+    }
+    .news-list li:before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #990000;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .news-list li:last-child { border-bottom: none; }
+    .news-list li:hover { transform: translateX(5px); }
+    .news-list li:hover:before { opacity: 1; }
+
+    .date {
+      font-weight: 600;
+      color: #990000;
+    }
+
+    /* Scroll to top */
+    .scroll-top {
+      position: fixed;
+      bottom: 20px; right: 20px;
+      width: 40px; height: 40px;
+      background-color: #990000;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      opacity: 0;
+      transition: all 0.3s;
+      transform: translateY(20px);
+      z-index: 99;
+    }
+    .scroll-top.visible { opacity: 0.7; transform: translateY(0); }
+    .scroll-top:hover  { opacity: 1; transform: translateY(-5px); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header { flex-direction: column; text-align: center; padding: 30px 15px; }
+      .profile-img { margin-right: 0; margin-bottom: 20px; }
+      .social-links { justify-content: center; }
+      .main-content { flex-direction: column; }
+      .sidebar { order: -1; }
+      .background-shapes { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background floating shapes -->
+  <div class="background-shapes">
+    <div class="shape shape-1 shape-float"></div>
+    <div class="shape shape-2 shape-sway"></div>
+    <div class="shape shape-3 shape-pulse"></div>
+    <div class="shape shape-4 shape-orbit"></div>
+    <div class="shape shape-5 shape-float"></div>
+    <div class="shape shape-6 shape-sway"></div>
+    <div class="shape shape-7 shape-pulse"></div>
+    <div class="shape shape-8 shape-orbit"></div>
+  </div>
+
+  <header class="header">
+    <img src="profile.jpg" alt="Shintaro Sakai" class="profile-img">
+    <div class="header-content">
+      <h1>Shintaro Sakai</h1>
+      <p class="subtitle">Ph.D. Student in Informatics &bull; Indiana University Bloomington</p>
+      <div class="social-links">
+        <a href="mailto:shinsaka@iu.edu" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/shintaro-sakai-400a54247/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/citations?user=kaQW3MIAAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="fa-brands fa-google"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="content">
+
+      <section id="bio" class="bio">
+        <h2>👋 About Me</h2>
+        <p>
+          Hi! I am a PhD student in Informatics at Indiana University Bloomington (IUB), where I am advised by
+          Dr. <a href="https://luddy.indiana.edu/contact/profile/index.html?Haewoon_Kwak">Haewoon Kwak</a> and
+          Dr. <a href="https://luddy.indiana.edu/contact/profile/index.html?Jisun_An">Jisun An</a> at
+          <a href="https://soda-labo.github.io/">Soda Lab</a>.
+          Currently, I also closely work with Dr.
+          <a href="https://www.cs.washington.edu/people/faculty/katharina-reinecke/">Katharina Reinecke</a>
+          (University of Washington). I was a visiting student at <a href="https://wildlab.cs.washington.edu/">WildLab</a>
+          at the University of Washington for the summer of 2026.
+        </p>
+        <p>
+          You can download my CV <a href="CV.pdf">here</a>.
+        </p>
+      </section>
+
+      <section id="preprints">
+        <h2>📄 Preprints &amp; Under Review</h2>
+
+        <div class="publication">
+          <h3>Quantifying Gender Stereotypes in Japan between 1900 and 1999 with Word Embeddings</h3>
+          <p class="authors"><strong>Shintaro Sakai</strong>, Haewoon Kwak, Jisun An, Akira Matsui</p>
+          <p class="venue">arXiv, 2025.</p>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2510.03905" target="_blank"><i class="fa-solid fa-scroll"></i> Preprint</a>
+          </div>
+        </div>
+
+        <div class="publication">
+          <h3>Translation Gummy, or Lost in Translation? Cross-Cultural Conversations with a LLM-Powered Robot in Japan and the U.S.</h3>
+          <p class="authors">Long-Jing Hsu, <strong>Shintaro Sakai</strong>, Weslie Khoo, Hiroki Sato, Manasi Swaminathan, Katherine M. Tsui, David J. Crandall, Selma Šabanovic</p>
+          <p class="venue">Under review at ACM Transactions on Computer-Human Interaction, 2025.</p>
+        </div>
+      </section>
+
+      <section id="publications">
+        <h2>📜 Publications</h2>
+
+        <div class="publication">
+          <h3>Somatic in the East, Psychological in the West?: Investigating Clinically-Grounded Cross-Cultural Depression Symptom Expression in LLMs</h3>
+          <p class="authors"><strong>Shintaro Sakai</strong>, Jisun An, Migyeong Kang, Haewoon Kwak</p>
+          <p class="venue">Proceedings of the 4th Workshop on Cross-Cultural Considerations in NLP (C3NLP 2026).</p>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2508.03247" target="_blank"><i class="fa-solid fa-scroll"></i> Preprint</a>
+            <a href="https://aclanthology.org/2026.c3nlp-1.2/" target="_blank"><i class="fa-solid fa-file"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="publication">
+          <h3>Justifying AI regulation: Examining multi-stakeholder responses to the AI Act</h3>
+          <p class="authors">Kaisla Kajava, Ana Paula Gonzalez Torres, Antti Rannisto, <strong>Shintaro Sakai</strong></p>
+          <p class="venue">Telematics and Informatics, 2025.</p>
+          <div class="links">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0736585325000401" target="_blank"><i class="fa-solid fa-file"></i> Paper</a>
+          </div>
+        </div>
+
+      </section>
+
+    </div><!-- .content -->
+
+    <div class="sidebar">
+
+      <section id="interests">
+        <h2>🔬 Research Interests</h2>
+        <div class="tags">
+          <span class="tag">Culture</span>
+          <span class="tag">Computational Social Science</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Cross-Cultural AI</span>
+          <span class="tag">Human-AI Interaction</span>
+        </div>
+      </section>
+
+      <section id="news">
+        <h2>🔶 News</h2>
+        <ul class="news-list">
+          <li><span class="date">Jul 2026:</span> Gave a panel talk at the <a href="https://c3nlp.github.io/" target="_blank">C3NLP workshop</a> at ACL.</li>
+          <li><span class="date">Jul 2026:</span> One <a href="https://aclanthology.org/2026.c3nlp-1.2/" target="_blank">paper</a> accepted to the <a href="https://c3nlp.github.io/" target="_blank">C3NLP workshop</a> at ACL.</li>
+          <li><span class="date">Apr 2024:</span> I am joining Indiana University Bloomington as a PhD student!</li>
+        </ul>
+      </section>
+
+    </div><!-- .sidebar -->
+  </div><!-- .main-content -->
+
+  <footer style="text-align: center; padding: 30px 20px; margin-top: 20px; font-size: 1rem; color: #999; border-top: 1px solid #e0e0e0;">
+    Design based on <a href="https://homes.cs.washington.edu/~ypang2/" target="_blank" style="color: #990000; font-weight: 600;">Rock Yuren Pang</a>'s website.
+  </footer>
+
+  <div class="scroll-top" id="scroll-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+  <script>
+    // Scroll animations
+    const sections = document.querySelectorAll('section');
+    function checkScroll() {
+      sections.forEach(section => {
+        if (section.getBoundingClientRect().top < window.innerHeight * 0.9) {
+          section.classList.add('section-visible');
+        }
+      });
+      const btn = document.getElementById('scroll-top');
+      btn.classList.toggle('visible', window.scrollY > 300);
+    }
+    window.addEventListener('load', checkScroll);
+    window.addEventListener('scroll', checkScroll);
+
+    // Scroll to top
+    document.getElementById('scroll-top').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Show more publications
+    document.getElementById('show-more-pubs').addEventListener('click', function() {
+      const more = document.getElementById('more-pubs');
+      const hidden = more.classList.toggle('hidden');
+      this.textContent = hidden ? 'Show More Publications' : 'Show Fewer Publications';
+    });
+
+    // Subtle parallax on background shapes
+    const shapes = document.querySelectorAll('.shape');
+    document.addEventListener('mousemove', (e) => {
+      const mx = e.clientX / window.innerWidth  - 0.5;
+      const my = e.clientY / window.innerHeight - 0.5;
+      shapes.forEach((s, i) => {
+        const d = (i % 4 + 1) * 12;
+        s.style.transition = 'transform 1s ease-out';
+        if (s.classList.contains('shape-float'))
+          s.style.transform = `translateY(${my*d}px) translateX(${mx*d}px)`;
+        else if (s.classList.contains('shape-sway'))
+          s.style.transform = `translateX(${mx*d}px) rotate(${my*d*0.5}deg)`;
+        else if (s.classList.contains('shape-pulse'))
+          s.style.transform = `scale(${1 + Math.abs(my)*0.1})`;
+        else if (s.classList.contains('shape-orbit'))
+          s.style.transform = `rotate(${mx*d*2}deg) translateX(50px) rotate(${-mx*d*2}deg)`;
+      });
+    });
+  </script>
+
+</body>
+</html>
